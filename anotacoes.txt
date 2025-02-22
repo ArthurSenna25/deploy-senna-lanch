@@ -1,0 +1,29 @@
+Instalação do next.js
+    npx create-next-app@15.1.6 . (versão 15.1.6)
+
+=======
+Iniciar Aplicação 
+    npm run dev
+
+
+Instalação do Prisma
+    npm install prisma@6.2.1
+    npm install @prisma/client@6.2.1
+    npx prisma init
+    npx prisma format (formata o arquivo corretamente)
+    npx prisma migrate dev (Cria uma nova migração baseada nas alterações feitas no schema do Prisma (schema.prisma).
+                            Aplica essa migração ao banco de dados.
+                            Garante que o banco de dados está sincronizado com o código do Prisma.
+                            Sempre que fizer alteração no schema.prisma, fazer uma migrate)
+    npx prisma db seed (rodar o seed)
+
+Instalação do ts-node 
+    npx install -D td-node@10.9.2 
+
+Instalação do ShadCn
+    npx shadcn@2.3.0 init
+
+Convenção para nomeação de commits no GitHub (Estudar)
+
+feat: O prefixo feat é usado para indicar a adição de uma nova funcionalidade ao código.
+chore: o prefixo chore é usado para indicar mudanças que não afetam o código-fonte de produção nem adicionam novas funcionalidades
