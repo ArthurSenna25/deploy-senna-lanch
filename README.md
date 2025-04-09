@@ -1,6 +1,6 @@
-# 🍔 Senna Lanch — Self-Service Ordering Web App
+# 🍔 Senna Lanch Web — Self-Service Ordering Web App
 
-**Senna Lanch** is a self-service ordering web application designed for restaurants. It allows customers to place their orders directly from their tables, improving efficiency and enhancing the overall user experience.
+**Senna Lanch Web** is a self-service ordering web application designed for restaurants. It allows customers to place their orders directly from their tables, improving efficiency and enhancing the overall user experience.
 
 ## 🚀 Getting Started
 
@@ -9,13 +9,13 @@ To run the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ArthurSenna25/deploy-senna-lanch.git
+   git clone https://github.com/ArthurSenna25/senna-lanch-web.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd deploy-senna-lanch
+   cd senna-lanch-web
    ```
 
 3. **Install dependencies:**
@@ -34,11 +34,11 @@ To run the project locally:
 
 ## 🛠️ Technologies Used
 
-- **Next.js** – React framework for SSR and static site generation
-- **React** – JavaScript library for building user interfaces
-- **Prisma** – ORM for Node.js and TypeScript
-- **Tailwind CSS** – Utility-first CSS framework
-- **TypeScript** – Strongly typed programming language built on JavaScript
+- **Next.js** – React framework for SSR and static site generation  
+- **React** – JavaScript library for building user interfaces  
+- **Prisma** – ORM for Node.js and TypeScript  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **TypeScript** – Strongly typed programming language built on JavaScript  
 
 ## 🌐 Live Demo
 
@@ -48,7 +48,7 @@ Try the live version of the project here:
 ## 📁 Project Structure
 
 ```
-deploy-senna-lanch/
+senna-lanch-web/
 ├── .vscode/             # VS Code settings
 ├── prisma/              # Prisma schema and migrations
 ├── public/              # Static assets
@@ -70,11 +70,11 @@ deploy-senna-lanch/
 
 Contributions are welcome!
 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/YourFeature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/YourFeature`
-5. Open a pull request
+1. Fork the repository  
+2. Create your feature branch: `git checkout -b feature/YourFeature`  
+3. Commit your changes: `git commit -m 'Add some feature'`  
+4. Push to the branch: `git push origin feature/YourFeature`  
+5. Open a pull request  
 
 ## 📝 License
 
