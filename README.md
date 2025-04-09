@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Claro! Aqui está o `README.md` do projeto **Senna Lanch** traduzido e adaptado para inglês:
 
-## Getting Started
+---
 
-First, run the development server:
+```markdown
+# 🍔 Senna Lanch — Self-Service Ordering Web App
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Senna Lanch** is a self-service ordering web application designed for restaurants. It allows customers to place their orders directly from their tables, improving efficiency and enhancing the overall user experience.
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ArthurSenna25/deploy-senna-lanch.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd deploy-senna-lanch
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## 🛠️ Technologies Used
+
+- **Next.js** – React framework for SSR and static site generation
+- **React** – JavaScript library for building user interfaces
+- **Prisma** – ORM for Node.js and TypeScript
+- **Tailwind CSS** – Utility-first CSS framework
+- **TypeScript** – Strongly typed programming language built on JavaScript
+
+## 🌐 Live Demo
+
+Try the live version of the project here:  
+[https://deploy-senna-lanch.vercel.app/senna-lanch](https://deploy-senna-lanch.vercel.app/senna-lanch)
+
+## 📁 Project Structure
+
+```
+deploy-senna-lanch/
+├── .vscode/             # VS Code settings
+├── prisma/              # Prisma schema and migrations
+├── public/              # Static assets
+├── src/                 # Main source code
+│   ├── app/             # Pages and components (Next.js)
+│   ├── styles/          # Styling files
+│   └── utils/           # Utility functions
+├── .gitignore
+├── .prettierrc.json
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a pull request
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with by [Arthur de Senna](https://github.com/ArthurSenna25)
