@@ -1,8 +1,3 @@
-Claro! Aqui está o `README.md` do projeto **Senna Lanch** traduzido e adaptado para inglês:
-
----
-
-```markdown
 # 🍔 Senna Lanch — Self-Service Ordering Web App
 
 **Senna Lanch** is a self-service ordering web application designed for restaurants. It allows customers to place their orders directly from their tables, improving efficiency and enhancing the overall user experience.
